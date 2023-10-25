@@ -8,6 +8,11 @@ namespace Bucle01.Servicios
 {
     internal interface PideInterfaz
     {
-        public int calculo();
+        /// <summary>
+        /// Conexion al metodo que calcula la suma del valor introducido y suma sus anteriores
+        /// <autor>25/10/2023 - DMN</autor>
+        /// </summary>
+
+        public int calculo(int valorIntro);
     }
 }

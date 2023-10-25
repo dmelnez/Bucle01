@@ -8,8 +8,12 @@ namespace Bucle01.Servicios
 {
     internal class MenuImplementacion : MenuInterfaz
     {
-
-        public int pedirNum()
+        /// <summary>
+        /// Metodo por el cual se le pide al usuario un valor y lo devuelve
+        ///  <autor>25/10/2023 - DMN</autor>
+        /// </summary>
+        /// <returns></returns>
+        public int pedirNum( )
         {
             int valor;
             Console.WriteLine("Introduzca un Valor Mayor al 0");
@@ -18,6 +22,7 @@ namespace Bucle01.Servicios
 
 
         }
+
 
     }
 }
