@@ -20,12 +20,14 @@ namespace Bucle01.Servicios
             MenuInterfaz mi1 = new MenuImplementacion();
             int i = valorin;
 
-      
-           
+            int valors;
+            i = valorin;
+
             for (i =i; i <= 10; ++i) /*Creacion de un "for", el cual recoge el valor introducido y calcula sus anteriores*/
             {
 
-               
+                
+                int suma = i + valors
                 Console.WriteLine(i);
                 return i;
               
