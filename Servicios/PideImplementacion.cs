@@ -28,7 +28,7 @@ namespace Bucle01.Servicios
 
                 
                 int suma = i + valors
-                Console.WriteLine(i);
+                Console.WriteLine(suma);
                 return i;
               
             }
